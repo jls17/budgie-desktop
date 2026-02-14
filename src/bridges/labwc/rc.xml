@@ -239,10 +239,10 @@
 			<action name="Maximize" direction="both" />
 		</keybind>
 		<keybind bridge="wm.keybindings/maximize-horizontally" key="undefined">
-			<action name="Maximize" direction="horizontal" />
+			<action name="ToogleMaximize" direction="horizontal" />
 		</keybind>
 		<keybind bridge="wm.keybindings/maximize-vertically" key="undefined">
-			<action name="Maximize" direction="vertical" />
+			<action name="ToogleMaximize" direction="vertical" />
 		</keybind>
 		<keybind bridge="wm.keybindings/begin-move" key="A-F7">
 			<action name="" command="" />
@@ -257,7 +257,7 @@
 			<action name="Resize" />
 		</keybind>
 		<keybind bridge="wm.keybindings/unmaximize" key="W-Down">
-			<action name="UnMaximize" direction="both" />
+			<action name="UnSnap" />
 		</keybind>
 		<keybind bridge="wm.keybindings/toggle-fullscreen" key="undefined">
 			<action name="ToggleFullscreen" />
