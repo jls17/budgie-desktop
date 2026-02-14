@@ -239,10 +239,10 @@
 			<action name="Maximize" direction="both" />
 		</keybind>
 		<keybind bridge="wm.keybindings/maximize-horizontally" key="undefined">
-			<action name="Maximize" direction="right" />
+			<action name="Maximize" direction="horizontal" />
 		</keybind>
 		<keybind bridge="wm.keybindings/maximize-vertically" key="undefined">
-			<action name="Maximize" direction="left" />
+			<action name="Maximize" direction="vertical" />
 		</keybind>
 		<keybind bridge="wm.keybindings/begin-move" key="A-F7">
 			<action name="" command="" />
